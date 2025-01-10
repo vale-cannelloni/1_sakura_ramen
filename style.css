@@ -1,0 +1,523 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.googleMaps {
+  width: 100%;
+  height: 600px;
+  border: 0;
+}
+
+.atf {
+  background-image: url(https://valentino-strebel.developerakademie.net/sakura_ramen/resources/assets/img/1_hero/JPG/hero_bg.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0 160px;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 112px;
+}
+
+.flower-top {
+  width: 64px;
+}
+
+.flower-bottom-mobile {
+  display: none;
+}
+
+
+h1 {
+  font-weight: bold;
+  font-size: 96px;
+  margin: 0px;
+  text-align: center;
+  color: white;
+  padding-top: 160px;
+}
+
+.h1subtitle {
+  color: white;
+  text-align: center;
+
+}
+
+h2 {
+  margin: 0px;
+  font-size: 80px;
+  color: #9f0908;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  margin: 0px;
+}
+
+.telSymbol {
+  height: 25px;
+  width: 25px;
+}
+
+.telFont {
+  font-size: 24px;
+}
+
+.telButton {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #9f0908;
+  border: 2px solid white;
+  width: 220px;
+  height: 40px;
+  color: white;
+  text-decoration: none;
+}
+
+.telButton:hover {
+  background-color: red;
+}
+
+.menuButton {
+  color: white;
+  text-decoration: none;
+}
+
+.menuButton:hover {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menuButton:active {
+  color: orangered;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.orderSection {
+  padding: 120px 160px;
+  display: flex;
+  flex-direction: column;
+}
+
+.orderContent {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.instructionPosition {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 64px;
+}
+
+.ingredientsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+  width: 263px;
+}
+
+.ingredientsContainer img {
+  width: 128px;
+}
+
+.economica {
+  font-family: "Economica", sans-serif;
+  font-weight: bold;
+  font-size: 56px;
+}
+
+.menuSection {
+  background-image: url(https://valentino-strebel.developerakademie.net/sakura_ramen/resources/assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg);
+  padding: 120px 160px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.dishInfo {
+  width: 400px;
+  font-weight: bold;
+  font-size: 32px;
+  color: #675e54;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  gap: 40px;
+}
+
+.menuSelection {
+  display: flex;
+  flex-direction: column;
+  padding-top: 64px;
+  gap: 56px;
+}
+
+.tdPrice {
+  text-align: right;
+}
+
+.tdSpace {
+  padding-bottom: 8px;
+}
+
+.dishList {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+.dishListRight {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 80px;
+}
+
+.dishPrice {
+  display: flex;
+  flex-direction: column;
+}
+
+.dishImage {
+  width: 352px;
+}
+
+.locationSection {
+  padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 160px;
+  padding-right: 160px;
+}
+
+.addressContainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 8px;
+  padding-bottom: 64px;
+
+}
+
+
+.locationMarker {
+  height: 24px;
+  width: 24px;
+}
+
+.flower-bottom {
+  height: 44px;
+}
+
+.menuPriceSpace {
+  padding-bottom: 16px;
+}
+
+.footerContainer {
+  height: 144px;
+  align-items: center;
+  background-color: #0a141e;
+  margin: 0px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 160px;
+}
+
+.socialMediaContainer {
+  gap: 8px;
+}
+
+.socialMediaButtons {
+  height: 40px;
+  width: 40px;
+}
+
+@media (max-width:1200px) {
+
+  header {
+    padding: 0;
+  }
+
+  .atf {
+    padding: 0 24px;
+  }
+
+
+  .menuSection {
+    padding: 96px 24px;
+  }
+
+  .menuSelection {
+    padding-top: 48px;
+    gap: 32px;
+    align-items: center;
+  }
+
+  .dishInfo {
+    font-size: 24px;
+    width: 300px;
+  }
+
+  .dishList {
+    gap: 24px;
+  }
+
+  .dishListRight {
+    gap: 24px;
+  }
+
+  .instructionPosition {
+    padding-top: 48px;
+  }
+
+
+}
+
+@media (max-width: 1020px) {
+
+  .orderSection {
+    padding: 96px 24px;
+  }
+
+  .footerContainer {
+    padding: 0 24px;
+  }
+
+}
+
+@media (max-width: 820px) {
+
+  body {
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 72px;
+  }
+
+  h2 {
+    font-size: 64px;
+  }
+
+  h3 {
+    font-size: 32px;
+  }
+
+  .menuButton {
+    display: none;
+  }
+
+  .telFont {
+    font-size: 20px;
+  }
+
+  .telButton {
+    width: 170px;
+    height: 40px;
+  }
+
+  .menu {
+    gap: 0;
+  }
+
+  .ingredientsContainer img {
+    width: 112px;
+  }
+
+  .locationSection {
+    padding-top: 96px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .addressContainer {
+    padding-bottom: 48px;
+  }
+
+  .orderSection {
+    padding: 72px 16px;
+  }
+
+  .instructionPosition {
+    gap: 32px;
+  }
+
+  .ingredientsContainer {
+    width: 162px;
+    gap: 8px;
+  }
+
+  .economica {
+    font-size: 32px;
+  }
+
+  .menuSection {
+    padding: 72px 16px;
+  }
+
+  .menuSelection {
+    padding-top: 40px;
+    align-items: center;
+  }
+
+  .dishInfo {
+    font-size: 24px;
+    width: 300px;
+  }
+
+  .dishList {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .dishListRight {
+    flex-direction: column-reverse;
+    gap: 24px;
+  }
+
+}
+
+@media (max-width: 632px) {
+
+  body {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 44px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 32px;
+  }
+
+  .instructionPosition {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header {
+    padding: 0;
+    height: 64px;
+  }
+
+  .flower-top {
+    width: 40px;
+  }
+
+  .atf {
+    padding: 0 16px;
+  }
+
+  .telFont {
+    font-size: 16px;
+  }
+
+  .telButton {
+    width: 150px;
+    height: 30px;
+  }
+
+  .menu {
+    gap: 0;
+  }
+
+}
+
+@media (max-width: 550px) {
+
+
+
+  .locationSection {
+    padding-top: 72px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .addressContainer {
+    padding-bottom: 40px;
+  }
+
+  .footerContainer {
+    padding: 0 16px;
+    height: 86px;
+  }
+
+  .socialMediaButtons {
+    height: 40px;
+    width: 40px;
+  }
+
+  .socialMediaButtons {
+    height: 32px;
+    width: 32px;
+  }
+
+  .flower-bottom {
+    display: none;
+  }
+
+  .flower-bottom-mobile {
+    display: block;
+    width: 40px;
+  }
+}
+
+@media (max-width: 380px) {
+
+  .dishImage {
+    width: 250px;
+  }
+
+  .dishInfo {
+    width: 250px;
+  }
+}
+
+@media (max-width: 350px) {
+
+  .addressContainer {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+@media (max-width: 270px) {
+  h1 {
+    font-size: 30px;
+  }
+}
