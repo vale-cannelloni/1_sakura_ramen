@@ -2,11 +2,27 @@ html {
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: "raleway";
+  src: url(/resources/fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf);
+  src: url(/resources/fonts/Raleway/Raleway-VariableFont_wght.ttf);
+  src: url(/resources/fonts/economica/Economica-Bold.ttf);
+  src: url(/resources/fonts/economica/Economica-BoldItalic.ttf);
+  src: url(/resources/fonts/economica/Economica-Italic.ttf);
+  src: url(/resources/fonts/economica/Economica-Regular.ttf);
+}
+
+* {
+  font-family: "raleway";
+}
+
 body {
   margin: 0px;
   font-family: "Raleway", sans-serif;
   font-weight: normal;
   font-size: 24px;
+  margin: auto;
+  max-width: 1920px;
 }
 
 .googleMaps {
@@ -16,15 +32,14 @@ body {
 }
 
 .atf {
-  background-image: url(https://valentino-strebel.developerakademie.net/sakura_ramen/resources/assets/img/1_hero/JPG/hero_bg.jpg);
-  height: 100vh;
+  background-image: url(/resources/assets/img/1_hero/JPG/hero_bg.jpg);
+  height: 600px;
   background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
-  padding: 0 160px;
+  padding: 0 64px;
 }
-
 
 header {
   display: flex;
@@ -41,20 +56,18 @@ header {
   display: none;
 }
 
-
 h1 {
   font-weight: bold;
   font-size: 96px;
   margin: 0px;
   text-align: center;
   color: white;
-  padding-top: 160px;
+  padding-top: 64px;
 }
 
 .h1subtitle {
   color: white;
   text-align: center;
-
 }
 
 h2 {
@@ -114,7 +127,7 @@ h3 {
 }
 
 .orderSection {
-  padding: 120px 160px;
+  padding: 120px 64px;
   display: flex;
   flex-direction: column;
 }
@@ -128,6 +141,7 @@ h3 {
   display: flex;
   justify-content: space-evenly;
   padding-top: 64px;
+  gap: 16px;
 }
 
 .ingredientsContainer {
@@ -150,8 +164,8 @@ h3 {
 }
 
 .menuSection {
-  background-image: url(https://valentino-strebel.developerakademie.net/sakura_ramen/resources/assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg);
-  padding: 120px 160px;
+  background-image: url(/resources/assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg);
+  padding: 120px 64px;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -214,8 +228,8 @@ h3 {
   padding-top: 120px;
   display: flex;
   flex-direction: column;
-  padding-left: 160px;
-  padding-right: 160px;
+  padding-left: 64px;
+  padding-right: 64px;
 }
 
 .addressContainer {
@@ -223,9 +237,7 @@ h3 {
   justify-content: center;
   padding-top: 8px;
   padding-bottom: 64px;
-
 }
-
 
 .locationMarker {
   height: 24px;
@@ -248,7 +260,7 @@ h3 {
   color: white;
   display: flex;
   justify-content: space-between;
-  padding: 0 160px;
+  padding: 0 64px;
 }
 
 .socialMediaContainer {
@@ -260,8 +272,7 @@ h3 {
   width: 40px;
 }
 
-@media (max-width:1200px) {
-
+@media (max-width: 1200px) {
   header {
     padding: 0;
   }
@@ -269,7 +280,6 @@ h3 {
   .atf {
     padding: 0 24px;
   }
-
 
   .menuSection {
     padding: 96px 24px;
@@ -297,12 +307,9 @@ h3 {
   .instructionPosition {
     padding-top: 48px;
   }
-
-
 }
 
 @media (max-width: 1020px) {
-
   .orderSection {
     padding: 96px 24px;
   }
@@ -310,11 +317,9 @@ h3 {
   .footerContainer {
     padding: 0 24px;
   }
-
 }
 
 @media (max-width: 820px) {
-
   body {
     font-size: 20px;
   }
@@ -402,11 +407,9 @@ h3 {
     flex-direction: column-reverse;
     gap: 24px;
   }
-
 }
 
 @media (max-width: 632px) {
-
   body {
     font-size: 16px;
   }
@@ -453,13 +456,9 @@ h3 {
   .menu {
     gap: 0;
   }
-
 }
 
 @media (max-width: 550px) {
-
-
-
   .locationSection {
     padding-top: 72px;
     padding-left: 16px;
@@ -496,7 +495,6 @@ h3 {
 }
 
 @media (max-width: 380px) {
-
   .dishImage {
     width: 250px;
   }
@@ -507,14 +505,12 @@ h3 {
 }
 
 @media (max-width: 350px) {
-
   .addressContainer {
     text-align: center;
     flex-direction: column;
     align-items: center;
   }
 }
-
 
 @media (max-width: 270px) {
   h1 {
